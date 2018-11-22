@@ -74,17 +74,17 @@ public class proj {
 	    case 1:
 	     System.out.print("이름 : ");
 	     m.setName();
-	     System.out.print("학번 : ");
+	     System.out.print("악기 : ");
 	     m.setSchoolNumber();
 	     m.s.addStudent(m.getName(), m.getSchoolNumber());
 	     break;
 	    case 2:
-	     System.out.print("학번 : ");
+	     System.out.print("악기 : ");
 	     m.setSchoolNumber();
 	     m.s.delStudent(m.getSchoolNumber());
 	     break;
 	    case 3:
-	     System.out.print("학번 : ");
+	     System.out.print("악기 : ");
 	     m.setSchoolNumber();
 	     m.s.searchStudent(m.getSchoolNumber());
 	     break;
@@ -95,6 +95,8 @@ public class proj {
 	     System.out.println("프로그램을 종료합니다.");
 	     System.exit(0);
 	     break;
+	    
+	    	
 	    default:
 	     // 1 ~ 5가 아닌 다른 숫자 입력시 예외 던지기
 	     throw new Exception();
@@ -110,10 +112,10 @@ public class proj {
 	 }
 	 public static void printMenu() {
 	  System.out.println("========== 학생 관리 프로그램 ==========");
-	  System.out.println("1. 학생 추가");
-	  System.out.println("2. 학생 삭제");
-	  System.out.println("3. 학생 검색");
-	  System.out.println("4. 학생 조회");
+	  System.out.println("1. 단원 추가");
+	  System.out.println("2. 단원 삭제");
+	  System.out.println("3. 단원 검색");
+	  System.out.println("4. 단원 조회");
 	  System.out.println("5. 프로그램 종료");
 	  System.out.println("※프로그램 종료시 모든 데이터는 소멸됩니다.");
 	  System.out.print("입력 : ");
