@@ -180,7 +180,7 @@ public class proj {
 	    }
 	   }
 	  } else {
-	   System.out.println("\n* " + schoolNumber + "에 해당하는 학생이 없습니다.\n");
+	   System.out.println("\n* " + schoolNumber + "에 해당하는 단원이 없습니다.\n");
 	  }
 	 }
 	 // 학생 출력
