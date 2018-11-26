@@ -30,3 +30,4 @@ public static void main(String[] args) {
 	new namecard();
 }
 }
+//* gui Æ² »ý¼º 
