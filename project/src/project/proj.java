@@ -127,11 +127,11 @@ public class proj {
 	 private ArrayList<String> schoolNumberList;
 	 private static Student sObj;
 	 // 객체 생성 못하도록 막음
-	 // 특별한 의미가 있는것은 아니고, 조만간 다룰 static mathod 에 대한 예습.. ?
+
 	 private Student() {
 	 }
 	 // 객체를 하나만 생성하도록 싱글톤으로 관리
-	 // 이것 역시 특별한 의미가 있는 것은 아니고, 조만간 다룰 static method 에 대한 예습...그냥 해본거다..
+	
 	 public static Student genStuObj() {
 	  if (sObj == null) {
 	   sObj = new Student();
