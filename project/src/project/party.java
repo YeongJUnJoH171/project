@@ -3,7 +3,7 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
 
-// 동아리 뒤풀이 명단관리 연습출석체크  
+// 동아리 뒤풀이 명단관리 연습출석체크  ..
 public  class party extends JFrame {
 
 	       

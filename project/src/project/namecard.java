@@ -30,4 +30,4 @@ public static void main(String[] args) {
 	new namecard();
 }
 }
-//* commit이 왜 갑자기 안되지 ??
+//* commit이 왜 갑자기 안되지 ??..
