@@ -30,4 +30,4 @@ public static void main(String[] args) {
 	new namecard();
 }
 }
-//* gui 틀 생성 
+//* commit이 왜 갑자기 안되지 
