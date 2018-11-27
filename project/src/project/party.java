@@ -5,8 +5,6 @@ import java.awt.event.*;
 
 // 동아리 뒤풀이 명단관리 연습출석체크  ..
 public  class party extends JFrame {
-
-	       
 	Container contentPane = getContentPane();
 	Container c = getContentPane();
 public static void main(String[] args) { //메인 메소드 - 프로그래밍의 시작 
