@@ -59,7 +59,30 @@ public namecard() {
 			t.setText("");
 		}
 	});
-	setSize(1200,1200);
+	
+	//초기화버튼--------------------------------------------------------------
+		c.add(new JPanel(){{add(new JButton(new AbstractAction("초기화") {
+
+	        @Override
+	        public void actionPerformed(ActionEvent arg0) {
+	           
+	        	   ta.setText(null);
+	
+	        }
+	     }));}}, BorderLayout.SOUTH);
+		//--------------------------------------------------------------------
+	//뒤로가기버튼 --------------------------
+	c.add(new JPanel(){{add(new JButton(new AbstractAction("뒤로가기") {
+
+        @Override
+        public void actionPerformed(ActionEvent arg0) {
+         dispose();
+         new party();
+        }
+     }));}}, BorderLayout.SOUTH);
+	
+	//-------------------------------------
+	setSize(1200,1000);
 	setVisible(true);
 }
 
@@ -67,4 +90,3 @@ public static void main(String[] args) {
 	new namecard();
 }
 }
-//* commit이 왜 갑자기 안되지 ??..

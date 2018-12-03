@@ -30,16 +30,19 @@ public static void main(String[] args) { //메인 메소드 - 프로그래밍의 시작
     
     b1.addActionListener(new ActionListener() {
 		public void actionPerformed(ActionEvent e) {
+			dispose();
 			new afterparty();
 		}
 	});
     b2.addActionListener(new ActionListener() {
   		public void actionPerformed(ActionEvent e) {
+  			dispose();
   			new namecard();
   		}
   	});
     b3.addActionListener(new ActionListener() {
   		public void actionPerformed(ActionEvent e) {
+  			dispose();
   			new attendence();
   		}
   	});
