@@ -1,28 +1,36 @@
 package project;
 import javax.swing.*;
 
+import java.awt.image.BufferedImage;
+import java.awt.Image;
+import java.awt.Color;
+import java.awt.Graphics2D;
+import java.io.File;
+import javax.imageio.ImageIO;
+import java.awt.RenderingHints;
 import java.awt.*;
 import java.awt.event.*;
 
 public class attendence extends JFrame{
-	
+
+
 	public attendence() {
+	
 		setTitle("고려대학교 관현악단 출석체크");
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		Container c = getContentPane();
 		c.setLayout(new FlowLayout());
-		
+	
 		JButton string = new JButton("현악기 모임 Mozart Chamber");
 		JButton pipers = new JButton("    관악기 모임 Pipers");
 		JButton pops = new JButton("    Ost 연주 소모임 Pops");
 		JButton all = new JButton("    관현악단 전체 모임");
-		
+	
 		c.add(string);
 		c.add(pipers);
 		c.add(pops);
 		c.add(all);
-		setSize(800,200);
-	    setVisible(true);
+	
 		string.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				dispose();
@@ -55,6 +63,8 @@ public class attendence extends JFrame{
 	         new party();
 	        }
 	     }));}}, BorderLayout.SOUTH);
+		setSize(800,200);
+	    setVisible(true);
 	}
 	
 

@@ -12,7 +12,7 @@ public class namecard extends JFrame{
 	        return;
 	     }
 
-	     File fileName = new File(SaveAs.getSelectedFile() + ".txt");
+	     File fileName = new File(SaveAs.getSelectedFile() + ".csv");
 	     BufferedWriter outFile = null;
 	     try {
 	        outFile = new BufferedWriter(new FileWriter(fileName));
@@ -33,8 +33,8 @@ public class namecard extends JFrame{
 	     }
 	  
 	}
-	private JTextField tf = new JTextField(100);
-	private JTextArea ta = new JTextArea(40, 100);
+	private JTextField tf = new JTextField(40);
+	private JTextArea ta = new JTextArea(40, 110);
 public static void main(String[] args) {
 	new namecard();
 }
@@ -52,7 +52,7 @@ namecard(){
        @Override
        public void actionPerformed(ActionEvent arg0) {
           
-       	ta.append("악기는 바이올린 입니다" + "\n");
+       	ta.append("바이올린 " + ",  ");
 
        }
     }));}}, BorderLayout.NORTH);
@@ -62,7 +62,7 @@ namecard(){
        @Override
        public void actionPerformed(ActionEvent arg0) {
           
-       	ta.append("악기는 비올라 입니다" + "\n");
+       	ta.append("비올라 " + ",  ");
 
        }
     }));}}, BorderLayout.NORTH);
@@ -72,7 +72,7 @@ namecard(){
        @Override
        public void actionPerformed(ActionEvent arg0) {
           
-       	ta.append("악기는 첼로 입니다" + "\n");
+       	ta.append("첼로 " + ",  ");
 
        }
     }));}}, BorderLayout.NORTH);
@@ -82,7 +82,7 @@ namecard(){
        @Override
        public void actionPerformed(ActionEvent arg0) {
           
-       	ta.append("악기는 콘트라베이스 입니다" + "\n");
+       	ta.append("콘트라베이스 " + ",  ");
 
        }
     }));}}, BorderLayout.NORTH);
@@ -92,7 +92,7 @@ namecard(){
        @Override
        public void actionPerformed(ActionEvent arg0) {
           
-       	ta.append("악기는 클라리넷 입니다" + "\n");
+       	ta.append(" 클라리넷 " + ",  ");
 
        }
     }));}}, BorderLayout.NORTH);
@@ -102,7 +102,7 @@ namecard(){
        @Override
        public void actionPerformed(ActionEvent arg0) {
           
-       	ta.append("악기는 플룻 입니다" + "\n");
+       	ta.append(" 플룻 " + ",  ");
 
        }
     }));}}, BorderLayout.NORTH);
@@ -112,7 +112,7 @@ namecard(){
        @Override
        public void actionPerformed(ActionEvent arg0) {
           
-       	ta.append("악기는 오보에 입니다" + "\n");
+       	ta.append("오보에 " + ",  ");
 
        }
     }));}}, BorderLayout.NORTH);
@@ -122,7 +122,7 @@ namecard(){
        @Override
        public void actionPerformed(ActionEvent arg0) {
           
-       	ta.append("악기는 바순 입니다" + "\n");
+       	ta.append("바순 " + ",  ");
 
        }
     }));}}, BorderLayout.NORTH);
@@ -132,7 +132,7 @@ namecard(){
        @Override
        public void actionPerformed(ActionEvent arg0) {
           
-       	ta.append("악기는 트럼펫 입니다" + "\n");
+       	ta.append(" 트럼펫 " + ",  ");
 
        }
     }));}}, BorderLayout.NORTH);
@@ -142,7 +142,7 @@ namecard(){
        @Override
        public void actionPerformed(ActionEvent arg0) {
           
-       	ta.append("악기는 트럼본 입니다" + "\n");
+       	ta.append(" 트럼본 " + ",  ");
 
        }
     }));}}, BorderLayout.NORTH);
@@ -152,7 +152,7 @@ namecard(){
        @Override
        public void actionPerformed(ActionEvent arg0) {
           
-       	ta.append("악기는 호른 입니다" + "\n");
+       	ta.append(" 호른 " + " ,  ");
 
        }
     }));}}, BorderLayout.NORTH);
@@ -162,7 +162,7 @@ namecard(){
        @Override
        public void actionPerformed(ActionEvent arg0) {
           
-       	ta.append("악기는 팀파니 입니다" + "\n");
+       	ta.append(" 팀파니 " + ",  ");
 
        }
     }));}}, BorderLayout.NORTH);
@@ -174,7 +174,7 @@ namecard(){
        @Override
        public void actionPerformed(ActionEvent arg0) {
           
-       	ta.append("고대 오케스트라에 들어오신 19 새내기들을 환영합니다" + "\n");
+       	ta.append("19학번" + ",  ");
 
        }
     }));}}, BorderLayout.NORTH);
@@ -183,7 +183,7 @@ namecard(){
        @Override
        public void actionPerformed(ActionEvent arg0) {
           
-       	ta.append("고대 오케스트라에 들어오신 18 인재들 환영합니다" + "\n");
+       	ta.append(" 18학번" + ",  ");
 
        }
     }));}}, BorderLayout.NORTH);
@@ -192,7 +192,7 @@ namecard(){
        @Override
        public void actionPerformed(ActionEvent arg0) {
           
-       	ta.append("고대 오케스트라에 들어오신 17 인재를 환영합니다" + "\n");
+       	ta.append("17학번" + ",  ");
 
        }
     }));}}, BorderLayout.NORTH);
@@ -202,7 +202,7 @@ namecard(){
        @Override
        public void actionPerformed(ActionEvent arg0) {
           
-       	ta.append("고대 오케스트라에 들어오신 16 인재를 환영합니다" + "\n");
+       	ta.append("16학번" + ",  ");
 
        }
     }));}}, BorderLayout.NORTH);
@@ -211,7 +211,7 @@ namecard(){
        @Override
        public void actionPerformed(ActionEvent arg0) {
           
-       	ta.append("고대 오케스트라에 들어오신 15 선배를 환영합니다" + "\n");
+       	ta.append("15학번" + ",  ");
 
        }
     }));}}, BorderLayout.NORTH);
@@ -220,7 +220,7 @@ namecard(){
        @Override
        public void actionPerformed(ActionEvent arg0) {
           
-       	ta.append("고대 오케스트라에 들어오신 14 선배를 환영합니다" + "\n");
+       	ta.append("14학번" + ",  ");
 
        }
     }));}}, BorderLayout.NORTH);
@@ -229,7 +229,7 @@ namecard(){
        @Override
        public void actionPerformed(ActionEvent arg0) {
           
-       	ta.append("고대 오케스트라에 들어오신 13 선배를 환영합니다" + "\n");
+       	ta.append("13학번" + ",  ");
 
        }
     }));}}, BorderLayout.NORTH);
@@ -238,8 +238,7 @@ namecard(){
        @Override
        public void actionPerformed(ActionEvent arg0) {
           
-       	ta.append("고대 오케스트라에 들어오신 12 선배를 환영합니다" + "\n");
-
+       	ta.append("12학번" + ",  ");
        }
     }));}}, BorderLayout.NORTH);
 	c.add(new JPanel(){{add(new JButton(new AbstractAction("11학번") {
@@ -247,23 +246,34 @@ namecard(){
        @Override
        public void actionPerformed(ActionEvent arg0) {
           
-       	ta.append("고대 오케스트라에 들어오신 11 선배를 환영합니다" + "\n");
+       	ta.append("11학번" + ",  ");
 
        }
     }));}}, BorderLayout.NORTH);
 	//-----------------------------------------------------------------------------------------------------------------
 	
-	c.add(new JLabel("이름/ 학과 / 전화번호 / 출신 중학교/ 출신 고등학교 를 적어주세요 "));
+	c.add(new JLabel("이름/ 학과 / 전화번호 / 출신 중학교/ 출신 고등학교 /처음본 선배 이름 / 앞으로의 각오를 간단히  적어주세요 "));
 	c.add(tf);
 	tf.addActionListener(new ActionListener() {
 		public void actionPerformed(ActionEvent e) {
 			JTextField t = (JTextField)e.getSource();
-			ta.append(t.getText() + "\n");
+			ta.append(t.getText() + ",  ");
 			t.setText("");
 		}
 	});
 	//----------------------------------------------------------------------------------------------------------------
 	c.add(new JScrollPane(ta),BorderLayout.SOUTH);
+	//-------------------------------------------------------------------------------줄바꾸기 / 여러사람을 동시에 받을 떄 
+	c.add(new JPanel(){{add(new JButton(new AbstractAction("새로운 사람") {
+
+        @Override
+        public void actionPerformed(ActionEvent arg0) {
+           
+        	ta.append("\n");
+
+        }
+     }));}}, BorderLayout.SOUTH);
+	
 	//초기화버튼--------------------------------------------------------------
 		c.add(new JPanel(){{add(new JButton(new AbstractAction("초기화") {
 
